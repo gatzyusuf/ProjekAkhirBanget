@@ -5,7 +5,7 @@
 		$.ajax(
 			{
 				type: "GET",
-				url : "isi dengan url api gateway",
+				url : "https://adfk9kd4t1.execute-api.us-east-1.amazonaws.com/api",
 				crossDomain : true,
 				contentType: "application/json",
 				success: function(data, status){
@@ -28,7 +28,7 @@
 <script src="https://code.jquery.com/jquery-3.1.1.min.js" type="text/javascript"></script>
 </head>
 <body>
-	<input type="button" value="Render JSON" id="Render JSON" onclick="return hello();"/>
+	<input type="button" value="Coba Render JSON" id="Render JSON" onclick="return hello();"/>
 	<br/>
 	<table id="jsonTable" style="visibility:hidden">
 		<thead>
